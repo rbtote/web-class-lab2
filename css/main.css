@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: #4F545F;
+	font-size: 13px;
+	font-family: Geneva, sans-serif;
+}
+
+h1{
+	padding: 20px;
+	margin: 0;
+	color: white;
+	background-color: #55B3C5;
+}
+
+fieldset{
+	border-style: groove;
+	border-width: 3px;
+	border-color: #69e2ff;
+	margin: 20px;
+	padding: 0 20px 20px 20px;
+}
+
+td, thead, tr { 
+  padding-top: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+fieldset > h3{
+	padding: 0;
+	margin-top: 0;
+}
+
+tbody{
+	text-align: justify;
+}
+
+legend{
+	font-size: 18px;
+	font-weight: 900;  /*1 -- 999*/
+	color: #55B3C5;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+table{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead{
+	font-size: 15px;
+	text-align: left;
+}
+
+footer{
+	margin: 30px;
+	font-size: 15px;
+}
+
+.linkTo{
+	font-family: font-family: Geneva, sans-serif;
+	font-size: 15px;
+	color: #40c4ff;
+	margin: 5px;
+}
+
+ul{
+	list-style-type: circle;
+	padding:0;
+	margin:0;
+}
+ul li{
+	padding:8px 16px;;
+	border-bottom:1px solid #ddd;
+}
+
+ul li:hover{
+	background-color:#55B3C5;
+	color: #FFF;
+}
